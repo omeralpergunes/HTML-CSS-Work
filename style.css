@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(viya.png);
+    background-size: cover;
+
+}
+
+.box{
+    width: 500px;
+    background:red;
+    padding: 60x;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: #ffff;
+    font-family: sans-serif;
+    margin-left: 200px;
+    
+}
+.box img{
+    border-radius: 40%;
+    cursor: pointer; 
+}
+.box img:hover{
+    transform: scale(0.9);}
+
+.box-1{
+    width: 500px;
+    background:red;
+    padding: 30px;
+    margin-top: 5%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: #ffff;
+    font-family: sans-serif;
+    float: left;
+    margin-left: 700px;
+    margin-top: -770px;
+}
+
+
+.box-1 img{
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.box-1 img:hover{
+    transform: scale(0.9);
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-decoration: none;
+
+}
+.box h1 :hover{
+    color:green;
+}
+
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.box p{
+    text-align: center;
+  
+ 
+}
+ul{
+    margin: 0px;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 25px;
+    list-style: none;
+}
+.box li a{
+    color: white;
+    font-size: 60px;
+    transition: all ease-in-out 2000ms;
+    
+}
+.box li a :hover{
+    color: yellow;
+    
+}
